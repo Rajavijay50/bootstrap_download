@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+
+</head>
+<body>
+   
+    <center>
+        <h1>bootstrap_down</h1>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+    </center>
+
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/car1.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Car details</h5>
+          <p class="card-text">What is best name for your car?
+            250 Best Car Names - Funny, Cool Names for Cars - Parade ...
+            Get creative with your car's name.
+            
+            There are hundreds of cars out there named Flash, Devil, Sparky, etc. You can also think about mythological creature.</p>
+          <a href="https://www.carwale.com/new-cars/" class="btn btn-primary">Go and Click</a>
+        </div>
+      </div>
+
+
+<center>
+      <h1>This is<span class="badge badge-secondary">New</span></h1>
+
+      <nav  aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page"  > </li>
+          <button><a href="https://www.youtube.com/hashtag/newhome">go and check</a></button>
+        </ol>
+      </nav>
+    </center>
+    
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+</body>
+</html>
